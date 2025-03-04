@@ -11,14 +11,15 @@ function App() {
 
   return (
     <div>
-      {/* <HomePage/>
+      {/* 
       <ShopPage/>
       <ContactPage /> */}
       {/* 
       <CartPage />
       <BlogDetailsPage />
-        <ProductDetailsPage />*/}
-        <AuthPage/> 
+        <ProductDetailsPage />
+        <AuthPage/> */}
+        <HomePage/>
     </div>
   )
 }

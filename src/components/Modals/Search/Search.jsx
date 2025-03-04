@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./Search.css";
 
 const Search = ({ isSearchShow, setIsSearchShow }) => {
@@ -53,3 +54,8 @@ const Search = ({ isSearchShow, setIsSearchShow }) => {
 };
 
 export default Search;
+
+Search.propTypes = {
+  isSearchShow: PropTypes.bool,
+  setIsSearchShow: PropTypes.func,
+}

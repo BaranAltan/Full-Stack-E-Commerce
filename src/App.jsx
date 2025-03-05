@@ -17,9 +17,9 @@ function App() {
       {/* 
       <CartPage />
       <BlogDetailsPage />
+        
+        <AuthPage/> <HomePage/>*/}
         <ProductDetailsPage />
-        <AuthPage/> */}
-        <HomePage/>
     </div>
   )
 }
